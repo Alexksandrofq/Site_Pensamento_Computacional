@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 0px #121212;
+}
+
+body{
+    background: radial-gradient(circle, #276e9d, #07141d);
+    
+}
+.logodoPC{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: max-content;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 0 10px #121212;
+    margin-top: -500px;
+  
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.cabecalho-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+
+p, h4{
+    color: #fff;
+    text-align: center;
+    
+}
+
+h1, h3{
+    color: #96FBFF;
+    text-shadow: 0 0 20px #96FBFF;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+img, .botao{
+    margin-top: 5px;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+    h2, h3{
+        margin-top: 25px;
+    }
+
+
+
+
+.introducao, .texto{
+    background: url('/imagens/fundo_para_texto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+
+}
+
+.texto_pessoal {
+    background: url('/imagens/fundo_para_texto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 0 auto;
+}
+
+.moldura{
+    background: url('/imagens/fundo_para_foto.png');
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -250px;
+}
+
+
+.foto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.dia{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 200px;
+}
+
+.minhafoto{
+    display: block;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -400px;
+    border-radius: 5%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
