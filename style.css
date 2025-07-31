@@ -82,7 +82,7 @@ h1{
 
 
 .introducao, .texto{
-    background: url('/imagens/fundo_para_texto.png');
+    background: url('imagens/fundo_para_texto.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 550px;
@@ -99,7 +99,7 @@ h1{
 }
 
 .texto_pessoal {
-    background: url('/imagens/fundo_para_texto.png');
+    background: url('imagens/fundo_para_texto.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 550px;
@@ -111,7 +111,7 @@ h1{
 }
 
 .moldura{
-    background: url('/imagens/fundo_para_foto.png');
+    background: url('imagens/fundo_para_foto.png');
     background-size: cover;
     background-position: center;
     width: 570px;
