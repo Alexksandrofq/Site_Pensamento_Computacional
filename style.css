@@ -38,7 +38,6 @@ body{
     margin: 25px;
 }
 
-
 .cabecalho-conteiner{
     display: flex;
     align-items: center;
@@ -119,13 +118,11 @@ h2, h3{
     margin-top: -250px;
 }
 
-
 .foto{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
-    max-width: 100%;
+    width: 350px;
     height: auto;
     transform: translate(-50%, -50%);
     border-radius: 5px;
