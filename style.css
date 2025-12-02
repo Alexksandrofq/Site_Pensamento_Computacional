@@ -1,0 +1,380 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, #276e9d, #07141d);
+    font-family: 'Times New Roman', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #96FBFF;
+    text-shadow: 0 0 20px #96FBFF;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2, p, h4 {
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+h2, h3 {
+    margin-top: 25px;
+}
+
+
+img {
+    display: block;
+    margin: 5px auto;
+}
+
+.logodoPC {
+    width: 50%;
+    border-radius: 5%;
+}
+
+.carrossel {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slide.ativo {
+    display: block;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seta.esquerda {
+    left: 10px;
+}
+
+.seta.direita {
+    right: 10px;
+}
+
+.seta:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+@media (max-width: 600px) {
+    .carrossel {
+        width: 95%;
+    }
+}
+
+.introducao,
+.texto,
+.texto_pessoal {
+    background: url('imagens/fundo_para_texto.png') no-repeat center;
+    background-size: contain;
+    width: 550px;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px auto;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.moldura {
+    background: url('imagens/fundo_para_foto.png') no-repeat center;
+    background-size: cover;
+    width: 570px;
+    height: 570px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+
+.dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 50px 0 20px 0;
+}
+
+
+.botoes,
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #121212;
+}
+
+
+.cabecalho-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.contato {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .introducao,
+    .texto,
+    .texto_pessoal,
+    .moldura {
+        width: 90%;
+        height: auto;
+        background-size: cover;
+        padding: 30px 15px;
+    }
+
+    .foto {
+        width: 60%;
+    }
+
+    .logodoPC {
+        width: 80%;
+    }
+
+    .minhafoto {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .cabecalho-conteiner {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    background: radial-gradient(circle, #276e9d, #07141d);
+    
+}
+.logodoPC{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: max-content;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 0 10px #121212;
+    margin-top: -500px;
+  
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px;
+}
+
+.cabecalho-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+
+p, h4{
+    color: #fff;
+    text-align: center;
+    
+}
+
+h1, h3{
+    color: #96FBFF;
+    text-shadow: 0 0 20px #96FBFF;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+img, .botao{
+    margin-top: 5px;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+h2, h3{
+    margin-top: 25px;
+}
+
+.introducao, .texto{
+    background: url('imagens/fundo_para_texto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;    
+
+}
+
+.texto_pessoal {
+    background: url('imagens/fundo_para_texto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 0 auto;
+}
+
+.moldura{
+    background: url('imagens/fundo_para_foto.png');
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -250px;
+}
+
+.foto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.dia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 50px 0 20px 0;
+}
+
+.minhafoto{
+    display: block;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -500px;
+    border-radius: 5%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.contato {
+    margin-top: 40px; 
+    position: relative;
+    z-index: 10; 
+}
+
+
+.introducao {
+    font-size: 15px;
+}
