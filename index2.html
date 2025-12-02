@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexksandro Fernandes de Queiroz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icon.png" type="imagem/png">
+</head>
+<body>
+    <header>
+        <nav>
+             <div class="apresentacao">
+                <h1> Alguns tópicos sobre mim:</h1>
+            </div>
+            <div class="botoes">
+                <a href="index.html" class="inicio">
+                    <button>Inicio</button>
+                </a>
+                <a href="https://blog.unifil.br/unifil-oferece-a-alunos-do-ensino-medio-curso-gratuito-de-pensamento-computacional/" class="curso">
+                    <button>sobre o curso</button>
+                    </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+    </main>
+    <div class="texto_pessoal">
+        <p>📍Nascido em São Carlos, interior de São Paulo <br>Tenho 21 anos <br>Trabalho na Concentrix, atindimento ao cliente nível 1 - chat (CLT 6x1) <br> 👨🏽‍💻 Aluno do curso Engenharia de Software <br> 🏳️‍⚧️ Homem Trans - 2 anos e 2 meses em T 💉 <br>
+        </p>
+    </div>
+
+<div class="carrossel">
+    <button class="seta esquerda">&#10094;</button>
+
+    <div class="slides">
+        <img src="imagens/minhafoto.jpeg" class="slide ativo">
+        <img src="imagens/Minhafotodois.jpeg" class="slide">
+        <img src="imagens/Minhafototres.jpeg" class="slide">
+    </div>
+
+    <button class="seta direita">&#10095;</button>
+</div>
+
+
+    <div class="contato">
+        <h1>Contato:</h1>
+        <div class="link">
+            <a href="https://www.linkedin.com/in/alexksandro-fernandes-de-queiroz-4040172b8/" class="linke">
+                <button>LinkedIn</button>
+            </a>
+            <a href="https://github.com/Alexksandrofq" class="git">
+                <button>GitHub</button>
+            </a>
+            <a href="" class="insta">
+                <button>Instagram</button>
+            </a>
+        </div>
+    </div>
+    
+
+</body>
+
+<script>
+let indice = 0;
+const slides = document.querySelectorAll(".slide");
+
+function mostrarSlide(n) {
+    slides.forEach(s => s.classList.remove("ativo"));
+    slides[n].classList.add("ativo");
+}
+
+function proximo() {
+    indice = (indice + 1) % slides.length;
+    mostrarSlide(indice);
+}
+
+function anterior() {
+    indice = (indice - 1 + slides.length) % slides.length;
+    mostrarSlide(indice);
+}
+
+document.querySelector(".direita").addEventListener("click", proximo);
+document.querySelector(".esquerda").addEventListener("click", anterior);
+
+setInterval(proximo, 4000);
+</script>
+
+</html>
