@@ -369,12 +369,18 @@ h2, h3{
 }
 
 .contato {
+<<<<<<< HEAD
     margin-top: 40px; 
     position: relative;
     z-index: 10; 
 }
 
 
+=======
+    margin-top: -200px;
+}
+
+>>>>>>> f4f02b799179719e5636848af2804a7396ebdecf
 .introducao {
     font-size: 15px;
 }
